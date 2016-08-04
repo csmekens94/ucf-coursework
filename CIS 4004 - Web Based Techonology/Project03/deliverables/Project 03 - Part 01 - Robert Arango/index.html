@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CIS 4004 - Project 3 - Fluid Layouts</title>
+    <link href="layout.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="styles.css" media="all" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript">    
+        setTimeout("location.reload(true);", 3000);
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper-page">
+    
+        <!-- HEADER -->
+        <div id="header-wrapper-3-col">
+            
+            <div id="header-wrapper-2-col">
+            
+                <div id="header-col-1">
+                    
+                    <div id="header-image-left">
+                        
+                        <img src="HTML5_Logo_64.png" height="125" alt="html5 logo">
+            
+                    </div>
+                    
+                </div> <!-- col-1 header-left ENDS -->
+            
+                <div id="header-col-2">
+            
+                    <div id="header-title">
+            
+                        <h1>The <span id="course">CIS 4004</span><br/><span id="title">Newsletter</span></h1>
+            
+                    </div>
+            
+                </div> <!-- col-2 header-center ENDS -->
+    
+            </div> <!-- wrapper-2-col ENDS -->
+            
+            <div id="header-col-3">
+                
+                <div id="header-image-right">
+            
+                    <img src="vcss.gif" height="125" width="175" alt="w3c valid">
+            
+                </div>
+            
+            </div> <!-- col-3 header-right ENDS -->
+            
+        </div> <!-- wrapper-3-col ENDS -->
+        
+        <div class="divider-container"><hr class="divider"/></div>
+        
+        <!-- CONTENT -->
+        <div id="conent-wrapper-3-col">
+            
+            <div id="content-wrapper-2-col">
+            
+                <div id="content-col-1">
+                    
+                    <aside id="aside-left">
+                        
+                        <h3>W3C Revises Website</h3>
+            
+                        (<span class="reporter-byline">Feb 19 - MJL</span>) Last week the W3C launched its updated Web site. This update follows the beta site announcement earlier this year. The updated site features a harmonized design, simplified information architecture, new style for technical reports, and new content, including calendars and aggregated blogs. Visitors to the site will notice that there are (new) pages that have not yet been completed with up-to-date content. The W3C plan to continue to add content to these pages, and welcomes your contribution. PLease contact the W3C at site-comment@w3.org if you would like to contribute, or if you find any bugs or anomolies. For students in CIS 4004 - the validators are still found on the right-hand side of the page, but now appear closer to the top of the page.
+                
+                    </aside>
+                
+                </div> <!-- col-1 content-left ENDS -->
+            
+            
+                <div id="content-col-2">
+                 
+                    <article id="article-center" role="article">
+                        
+                        <h2>Students Voice Displeasure with HTML/CSS Validators</h2>
+                    
+                        (<span class="reporter-byline">Feb 20 - CIS reporter</span>) Many students have voiced their frustrations of using HTML and CSS validators to validate class projects in CIS 4004. Citing primarily the difficulties in understanding the validator was truing to tell them. One student claimed "wtf does "OMITTAG NO was specified" even mean?" We spoke to the instructor of the course, Dr. Mark Llewellyn, who stated that "validation is an part of proper design of a modern website and understanding the output from the validators comes with experience." Dr. Llewellyn noted that currently all correct HTML5 documents would still generate one validation warning that read, "The validator checked your documents with an experimental feature: HTML5 Conformance Checker. This feature has been made available for your convenence, but be aware that it may be unreliable, or not perfectly up to date with the latest development of some cutting-edge technologies. If you find any issues with this feature, please report them. Thank you." Dr. Llewellyn stated this warning is to be expected as HTML5 is not yet technically an official standard.
+                        
+                        
+                        <hr id="separater">
+                        
+                        
+                        <h2>News Flash!! Assignment Grades Coming Soon</h2>
+                        
+                        (<span class="reporter-byline">Feb 19 - A Special Correspondent!</span>) According to an anonymous source close to the CIS 4004 course, "grades for the second homework assignment for CIS 4004 should be available on the WebCourses now, perhaps by the time you are reading this news." Although our source did not wish to be identified in this article (his initials are MJL), we believe the information to be accurate at this time. Our source indicated that the TAs are working very diligently on the grading of the projects for the course, and that a thorough analysis of all project details requires a fair amount of time to complete.
+                
+                    </article>
+                                
+                </div> <!-- col-2 content-center ENDS -->
+    
+            </div> <!-- wrapper-2-col ENDS -->
+            
+            
+            <div id="content-col-3">
+                
+                <aside id="aside-right">
+                            
+                    <!-- UPCOMING EVENTS -->
+                    <div id="upcoming-events" role="contentinfo">
+                        
+                        <span id="upcoming-events-title">**Upcoming Events**<br/><br/></span>
+                        <span id="upcoming-events-important">Project 3 is due March 1st<br/></span>
+                        <span id="upcoming-events-normal">Project 4 mid-March sometime</span>
+                    
+                    </div>
+                    
+                    
+                    <!-- FOLLOW US -->
+                    <div id="follow-us" role="alert">
+                        
+                        <img src="twitter-bird.png" height="100" width="110" alt="twitter">
+                        <img src="identica-logo.png" height="100" width="110" alt="identica">
+                        
+                        Follow the W3C on Twitter and identi.ca
+                    
+                    </div>
+                    
+                    
+                    <!-- READER POLL FORM -->
+                    <form id="reader-poll" role="form">
+                        
+                        <fieldset>
+                        
+                            <legend>Reader Poll</legend>
+                            
+                            <ol>
+                            
+                                <li>
+                            
+                                    Hours/week devoted to CIS 4004
+                                    <br/>
+                                    <input id="reader-poll-hours-week" type="text"/>
+                                    <br/><br/>
+                                    
+                                </li>
+                            
+                                
+                            
+                                <li>
+                                
+                                    Number of projects you'd like to see this term.
+                                    <br/>
+                                    <input id="reader-poll-num-projects" type="text"/>
+                            
+                                </li>
+                            
+                            </ol>
+                            
+                            <div id="reader-poll-submit-container">
+                                
+                                <input id="reader-poll-send-data" type="submit" value="Send Data"/>
+                            
+                            </div>
+                            
+                        </fieldset>
+                        
+                    </form>
+                   
+                    
+                </aside>
+                            
+            </div> <!-- col-3 content-right ENDS -->
+            
+        </div> <!-- wrapper-3-col ENDS -->
+        
+        <div class="divider-container"><hr class="divider"/></div>
+        
+        <!-- FOOTER -->
+        <footer>
+            
+             &copy; Copyright 2015 &nbsp;&nbsp;&nbsp;&nbsp; RMA Productions &nbsp;&nbsp;&nbsp;&nbsp; All Rights Reserved
+            
+        </footer>
+        
+    </div>
+        
+</body>
+
+</html>

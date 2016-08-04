@@ -1,0 +1,50 @@
+body {
+    margin: 20px auto;
+    padding: 0;
+    width: 1325px;
+    background: #ecf0f1;
+}
+
+header {
+    width: 100%;
+    background: #2980b9;
+    padding: 0px 0px;
+    border: 2px solid #2c3e50;
+    margin-top: -10px;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.day > ul > li.subheader {
+    width: 100%;
+    background: #2980b9;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #2c3e50;
+}
+
+li.hiddenheader {
+    list-style: none;
+}
+
+.column {
+    float: left;
+    width: 375px;
+    padding-left: 35px;
+}
+
+footer {
+    float: none;
+    clear: both;
+    width: 100%;
+    background: #2980b9;
+    padding: 0px;
+    margin-top: 20px;
+    border: 2px solid #2c3e50;
+}

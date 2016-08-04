@@ -1,0 +1,137 @@
+body {
+    margin: 20px;
+}
+
+#page-wrapper {
+    margin: 0 auto;
+    min-width: 900px;
+    max-width: 1200px;
+}
+
+#header-wrapper {
+    display: table;
+    width: 100%;
+}
+
+header {
+    display: table-cell;
+    height: 72px;
+    padding-left: 10px;
+}
+
+#content-wrapper {
+    display: table;
+    width: 100%;
+}
+
+nav {
+    display: table-cell;
+    width: 200px;
+}
+
+nav > ul > li {
+    list-style: none;
+    margin-left: -20px;
+}
+
+#main-content {
+    display: table-cell;
+    padding: 0px 20px;
+    width: 80%;
+}
+
+section {
+    display: table-cell;
+    height: 400px;
+    width: 100%;
+}
+
+section img {
+    float: left;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+section > ul > li {
+    list-style-position: inside;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accomodations-table {
+    border-collapse: collapse;
+}
+
+.accomodations-table-col-1 {
+    padding: 5px;
+    width: 85px;
+}
+
+.accomodations-table-col-2 {
+    padding: 5px;
+    width: 405px;
+}
+
+.accomodations-table-col-3 {
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}
+
+.accomodations-table-col-4 {
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+}
+
+.reservations-table-col-1 {
+    padding: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.reservations-table-col-2 {
+    padding: 10px;
+}
+
+#firstname {
+    width: 200px;
+}
+
+#lastname {
+    width: 200px;
+}
+
+#email {
+    width: 350px;
+}
+
+#phone {
+    width: 200px;
+}
+
+#arrivaldate {
+    width: 175px;
+}
+
+#nights {
+    width: 75px;
+}
+
+#comments {
+    height: 40px;
+    width: 250px;
+}
+
+.submit-btn{
+    padding-left: 0px;
+    text-align: left;
+}
+
+
+ul.custom-bullets {
+    list-style-image: url('marker.gif');
+}

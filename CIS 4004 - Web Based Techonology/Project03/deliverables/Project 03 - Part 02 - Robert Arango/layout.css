@@ -1,0 +1,180 @@
+/*****************************************
+ * PAGE STYLES                           *
+ *****************************************/
+
+#wrapper-page {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 700px;
+}
+
+.divider-container {
+    clear: both;
+    padding: 10px 0px;
+}
+
+hr.divider {
+    padding: 2px;
+}
+
+hr#separater {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+
+/*****************************************
+ * HEADER                                *
+ *****************************************/
+
+#header-wrapper-3-col {
+    display: table;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#header-col-1 {
+    display: table-cell; /*float: left;*/
+    vertical-align: top;
+    width: 200px;
+}
+
+#header-image-left {
+    padding: 5px;
+    width: 125px;
+}
+
+#header-col-2 {
+    display: table-cell; /*float: left;*/
+    height: 1%;
+    vertical-align: top;
+    width: auto;
+}
+
+#header-title {
+    padding: 15px;
+}
+
+#header-title h1 {
+    margin: 0px;
+}
+
+#header-col-3 {
+    display: table-cell; /*float: left;*/
+    vertical-align: top;
+    width: 200px;
+}
+
+#header-image-right {
+    padding: 5px;
+    margin-left: 15px;
+    width: 175px;
+}
+
+
+/*****************************************
+ * CONTENT                               *
+ *****************************************/
+
+#content-wrapper-3-col {
+    display: table;
+    width: 100%;
+}
+
+#content-col-1 {
+    display: table-cell; /*float: left;*/
+    vertical-align: top;
+    width: 275px;
+}
+
+aside#aside-left {
+    margin: 5px;
+    padding: 0px 10px 20px 10px;
+}
+
+aside#aside-left h3 {
+    margin-bottom: 0px;
+}
+
+#content-col-2 {
+    display: table-cell; /*float: left;*/
+    height: 1%;
+    vertical-align: top;
+    width: auto;
+}
+
+article#article-center {
+    margin: 5px;
+    padding: 0px 20px 20px 20px;
+}
+
+article#article-center h2 {
+    margin-bottom: 0px;
+}
+
+#content-col-3 {
+    display: table-cell; /*float: left;*/
+    vertical-align: top;
+    width: 250px;
+}
+
+aside#aside-right {
+    margin: 5px;
+}
+
+#upcoming-events {
+    margin: 20px 5px;
+    padding: 5px 0;
+    width: auto;
+}
+
+#follow-us {
+    margin: 2px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: auto;
+}
+
+#reader-poll {
+    margin: 5px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+#reader-poll ol {
+    margin: 0;
+    margin-left: -20px;
+}
+
+#reader-poll legend {
+    padding: 5px;
+}
+
+#reader-poll-submit-container {
+    padding-top: 15px;
+    width: auto;
+}
+
+#reader-poll-hours-week {
+    height: 20px;
+    width: 150px;
+}
+
+#reader-poll-num-projects {
+    height: 20px;
+    width: 150px;
+}
+
+#reader-poll-send-data {
+    width: 160px;
+}
+
+
+/*****************************************
+ * FOOTER                                *
+ *****************************************/
+
+footer {
+    padding-top: 10px;
+}

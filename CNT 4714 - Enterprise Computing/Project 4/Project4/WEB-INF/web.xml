@@ -1,0 +1,22 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+		http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	<!--General description of web app-->
+	<display-name>
+	CNT4714 Project4
+	</display-name>
+	<description>
+	Project4 for CNT4714
+	</description>
+	<servlet>
+		<servlet-name>Project4</servlet-name>
+		<description>Project 4 for CNT4714</description>
+		<servlet-class>Project4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Project4</servlet-name>
+		<url-pattern>/Project4</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,109 @@
+body {
+    background-image: url('ptrbackground.jpg');
+    background-repeat: repeat-x;
+    background-color: #00569F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#header-wrapper {
+    background: #000032;
+    background-image: url('sunset.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: #FFF;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    line-height: 72px;
+}
+
+nav {
+    background: #87D2FA;
+}
+
+nav > ul > li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: #35419C;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav ul li a:active {
+    color: #35419C;
+    text-decoration: none;
+}
+
+#main-content {
+    background: #FFF;
+}
+
+section .blue-text {
+    color: #407b98;
+}
+
+section > h2 {
+    color: #498BAD;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+section > h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+footer {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.accomodations-table {
+    color: #767676;
+}
+
+.accomodations-table-row-header {
+    background: #ecf7fa;
+}
+
+.accomodations-table-row-alt {
+    background: #ecf7fa;
+}
+
+.accomodations-table-col-1 {
+    border: 2px solid #2EBBEA;
+    text-align: center;
+}
+
+.accomodations-table-col-2 {
+    border: 2px solid #2EBBEA;
+}
+
+.accomodations-table-col-3 {
+    border: 2px solid #2EBBEA;
+}
+
+.accomodations-table-col-4 {
+    border: 2px solid #2EBBEA;
+}
+
+.reservations-table {
+    color: #000;
+}

@@ -1,0 +1,93 @@
+/**
+ * Name: Robert Arango
+ * Course: CNT 4714 - Fall 2015 - Project Four
+ * Assignment title: Developing A Three-Tier Distributed Web-Based Application
+ * Date: November 1, 2015
+ */
+
+body {
+	background-color: #2980b9;
+	color: white;
+	text-align: center;
+}
+
+#sqlForm {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sqlCommand {
+	background-color: #2c3e50;
+	color: #FFF;
+	width: 100%;
+}
+
+#formButtons {
+	text-align: center;
+}
+
+.formButton {
+	background: #d35400;
+	color: #FFF;
+	width: 150px;
+	height: 35px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+
+
+.business-logic-success {
+	text-align: center;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000;
+}
+
+.business-logic-success td {
+	background-color: #27ae60;
+	font-size: 18px;
+	color: #000;
+	padding: 10px;
+}
+
+
+
+.sql-error {
+	text-align: center;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000;
+}
+
+.sql-error td {
+	background-color: #c0392b;
+	font-size: 18px;
+	color: #FFF;
+	padding: 10px;
+}
+
+
+
+.results {
+	text-align: center;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #000;
+}
+
+.results th {
+	background-color: #2c3e50;
+	color: #FFF;
+	padding: 5px;
+}
+
+.results td {
+	background-color: #FFF;
+	color: #000;
+	padding: 5px;
+}

@@ -1,0 +1,145 @@
+/*****************************************
+ * PAGE STYLES                           *
+ *****************************************/
+
+body {
+    background: #e7c58e;
+    font-family: "Times New Roman", Times, serif;
+}
+
+hr.divider {
+    background: red;
+}
+
+.reporter-byline {
+    color: #3c8ce8;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 9pt;
+}
+
+
+/*****************************************
+ * HEADER STYLES                         *
+ *****************************************/
+ 
+ #header-image-left {
+    background: gray;
+    border: 1px solid #000;
+}
+
+#header-title {
+    background: #000;
+    border: 2px solid green;
+    text-align: center;
+}
+
+#header-title h1 {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+#header-title h1 #course {
+    color: red;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#header-title h1 #title {
+    font-family: Georgia, serif;
+}
+
+#header-image-right {
+    background: gray;
+    border: 1px solid #000;
+}
+
+
+/*****************************************
+* CONTENT STYLES                         *
+*****************************************/
+ 
+aside#aside-left {
+    background: #abefc2;
+    border: 1px solid #000;
+    text-align: justify;
+}
+
+aside#aside-left h3 {
+    text-align: justify;
+}
+ 
+article#article-center {
+    background: #c2a4e3;
+    border: 1px solid #000;
+    text-align: justify;
+}
+
+article#article-center h2 {
+    text-align: justify;
+}
+ 
+aside#aside-right {
+    background: #abefc2;
+    border: 1px solid #000;
+}
+
+#upcoming-events {
+    border: 1px dashed #000;
+    text-align: center;
+}
+
+#upcoming-events-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#upcoming-events-important {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#upcoming-events-normal {
+    font-size: 14px;
+}
+
+#follow-us {
+    background: #127e8e;
+    color: #FFF;
+}
+
+#reader-poll legend {
+    background: #000;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+#reader-poll-hours-week {
+    border-radius: 5px;
+}
+
+#reader-poll-num-projects {
+    border-radius: 5px;
+}
+
+#reader-poll-submit-container {
+    text-align: center;
+}
+
+#reader-poll-send-data {
+    background: #000;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 20px;
+}
+ 
+ 
+/*****************************************
+* FOOTER STYLES                          *
+*****************************************/
+
+footer {
+    font-size: 14px;
+    text-align: center;
+}

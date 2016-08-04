@@ -1,0 +1,113 @@
+/**
+ *  Author: Robert Arango
+ *  Course: CGS 3175 - Internet Applications
+ *  Assignment: Assignment 2
+ *  Date: 10/07/2015
+ */
+
+* {
+    color: #000;
+}
+
+body {
+    /**** BACKGROUND - Color of Pages ****/
+    background-color: #ecf0f1;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.jumbotron #header-title {
+    /**** TEXT - Set the Color of header text to white ****/
+    color: #FFF;
+    text-align: center;
+    /**** FONT - Set the size of a text ****/
+    font-size: 80px;
+    /**** FONT - Set the font of a text ****/
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("http://www.transparenttextures.com/patterns/60-lines.png");
+    background-repeat: repeat;
+    /**** BACKGROUND - Color of the Page Headers ****/
+    background-color: #27ae60;
+}
+
+.pretty-message {
+    margin: 50px 0px;
+}
+
+h3.pretty-message {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3.pretty-message small {
+    color: #7f8c8d;
+    margin-left: 40px;
+}
+
+.navbar {
+    color: #000;
+}
+
+.panel-heading h3 {
+    font-size: 30px;
+    text-align: center;
+    /**** FONT - Set the style of the font for different tag elements in the page ****/
+    font-style: normal;  /* Reset the font since bootstrap made it italic by default */
+    /**** FONT - Set the boldness of the font ****/
+    font-weight: bold;
+}
+
+.panel-footer {
+    text-align: right;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+#home-image {
+    /**** BORDERS - Add a border to at least one element on one of your website pages ****/
+    border: 3px solid rgba(0,0,0,.3);
+}
+
+a:visited {
+    /**** LINKS - Use different colors to identify links visited and unvisited ****/
+    color: red;
+}
+
+a:link {
+    /**** LINKS - Use different colors to identify links visited and unvisited ****/
+    color: green;
+}
+
+ul {
+    /**** LIST - Modify the default marker for the list used ****/
+    list-style-type: square;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+aside {
+    text-align: center;
+}
+
+aside p {
+    font-size: 16px;
+}
+
+aside p.aside-company {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}

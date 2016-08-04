@@ -1,0 +1,73 @@
+/**
+ *  Author: Robert Arango
+ *  Course: CGS 3175 - Internet Applications
+ *  Assignment: Assignment 1
+ *  Date: 09/15/2015
+ */
+
+* {
+    color: #000;
+}
+
+body {
+    background-color: #ecf0f1;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.jumbotron #header-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("http://www.transparenttextures.com/patterns/60-lines.png");
+    background-repeat: repeat;
+    background-color: #27ae60;
+}
+
+.pretty-message {
+    margin: 50px 0px;
+}
+
+h3.pretty-message {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3.pretty-message small {
+    color: #7f8c8d;
+    margin-left: 50px;
+}
+
+.navbar {
+    color: #000;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+aside {
+    text-align: center;
+}
+
+aside p {
+    font-size: 16px;
+}
+
+aside p.aside-company {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}

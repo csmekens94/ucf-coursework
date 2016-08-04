@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Atlantic Trails Resort</title>
+    <link href="structure.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="presentational.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="functions.js"></script>
+</head>
+
+<body onload="addTime();">
+
+    <div id="page-wrapper">
+        
+        <div id="header-wrapper">
+        
+            <header role="banner">
+                Atlantic Trails Resort
+            </header>
+        
+        </div>
+        
+        <div id="content-wrapper">
+
+            <nav role="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accommodations.html">Accommodations</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            </nav>
+            
+            <div id="main-content">
+                
+                <section role="main">
+                    
+                    <h2 role="heading">Reservations at Atlantic Trails</h2>
+                    
+                    <h3>Contact Us Today!</h3>
+                    
+                    <form action="form.php" method="post">
+                        
+                        <p>Required fields are marked with an asterisk *</p>
+                        
+                        <table class="reservations-table">
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1">
+                                    *First Name:
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    <input type="text" id="firstname" required="required">
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1">
+                                    *Last Name:
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    <input type="text" id="lastname" required="required">
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1">
+                                    *E-mail:
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    <input type="text" id="email" required="required">
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1">
+                                    Phone:
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    <input type="text" id="phone">
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1">
+                                    Arrival Date:
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    <input type="date" id="arrivaldate" placeholder="mm/dd/yyyy">
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1">
+                                    Nights:
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    <input type="number" id="nights">
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1">
+                                    *Comments:
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    <textarea id="comments" required="required"></textarea>
+                                </td>
+                                
+                            </tr>
+                            
+                            <tr class="reservations-table-row">
+                                
+                                <td class="reservations-table-col-1 submit-btn">
+                                    <input type="submit" value="Submit">
+                                </td>
+                                
+                                <td class="reservations-table-col-2">
+                                    
+                                </td>
+                                
+                            </tr>
+                            
+                        </table>
+                        
+                    </form>
+                    
+                    <p>
+                        <span class="blue-text">Atlantic Trails Resort</span>
+                        <br/>
+                        1210 Atlantic Trails Way
+                        <br/>
+                        Andover, Maine 04226
+                    </p>
+                    
+                    <p>888-555-5555</p>
+                
+                </section>
+                
+                <footer>
+                    
+                    <br/>Copyright &copy; 2015 Atlantic Trails Resort
+                    <br/><a href="mailto:robert@arango.com">Robert@Arango.com</a>
+                    <br/>Today is: <span id="datetime"></span>
+                
+                </footer>
+            
+            </div>
+            
+        </div>
+        
+    </div>
+        
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- | Author: Robert Arango                    | -->
+<!-- | Course: CGS 3175 - Internet Applications | -->
+<!-- | Assignment: Assignment 5                 | -->
+<!-- | Date: 11/25/2015                         | -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- My project uses several framework components, css, fonts and are loaded through a CDN or content -->
+<!-- delivery network. This allowed me to to quickly and easily prototype this theme and page within  -->
+<!-- a couple hours, instead of days. Hope you like it.                                               -->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Developers 'R' Us - Services</title>
+
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <style>
+        .header-row {
+            background-color: #2C3E50;
+        }
+
+        .header-row h3 {
+            color: #FFF;
+            text-align: center;
+        }
+
+        .colored-row-green {
+            background-color: #d5f6e3
+        }
+
+        .colored-row-orange {
+            background-color: #fae4d1;
+        }
+
+        .colored-row-blue {
+            background-color: #d5e9f6;
+        }
+
+        table {
+            border: 1px solid #000;
+            border-style: double;
+        }
+
+        table p {
+            font-size: 16px;
+        }
+
+        table li {
+            font-size: 16px;
+        }
+    </style>
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Developers 'R' Us</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 id="header-title">
+                <img id="logo" src="img/logo.png" alt="Developers 'R' Us Logo"/>
+                 Developers 'R' Us
+             </h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row-fluid">
+            <div class="col-md-12">
+                <p style="text-align:center;"><img src="img/services-header.png"/></p>
+
+                <h2>Our Services</h2>
+                <p>We offer a vast array of Services which are offered in packages listed below:</p>
+                <hr/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                
+                <table class="table table-bordered">
+                    <tr class="header-row">
+                        <th style="width: 20%;">
+                            <h3>Services</h3>
+                        </th>
+                        <th style="width: 60%;">
+                            <h3>Details About Services</h3>
+                        </th>
+                        <th style="width: 20%;">
+                            <h3>Prices</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><p><i class="fa fa-database"></i> Database Management</p></td>
+                        <td>
+                            <p>Whether you have an existing, non-existant or out of control database system, we can help you with anything you need. This package offers:</p>
+                            <ul>
+                                <li>Creation or Updating of your business's database systems</li>
+                                <li>Tools and software to connect to and manage your databases</li>
+                                <li>Database migrations to new services or hardware</li>
+                                <li>We also offer management services for your database so you don't have to</li>
+                            </ul>
+                        </td>
+                        <td><b>Starting at $500</b></td>
+                    </tr>
+                    <tr class="colored-row-green">
+                        <td><p><i class="fa fa-cloud"></i> Web Applications</p></td>
+                        <td>
+                            <p>We build everything from scalable web applications, centralized business tools, and even simple static sites to show off your brand. This package offers:</p>
+                            <ul>
+                                <li>Website development and deployment</li>
+                                <li>Updating of web applications</li>
+                                <li>Various hosting services are available</li>
+                            </ul>
+                        </td>
+                        <td><b>Starting at $2000</b></td>
+                    </tr>
+                    <tr>
+                        <td><p><i class="fa fa-mobile"></i> Mobile Applications</p></td>
+                        <td>
+                            <p>Whether you need an app for Android, iOS, Windows Phone or even BlackBerry OS, we can help. This package offers:</p>
+                            <ul>
+                                <li>Mobile App development on any platform of your choosing</li>
+                                <li>API access to your new or existing website through the app</li>
+                                <li>Marketing and design assistance of your existing application</li>
+                            </ul>
+                        </td>
+                        <td><b>Starting at $4000</b></td>
+                    </tr>
+                    <tr class="colored-row-orange">
+                        <td><p><i class="fa fa-users"></i> Staff Training</p></td>
+                        <td>
+                            <p>Training your staff on all of your various software and hardware can be difficult, especially if no one is really familiar with the technology. This package offers:</p>
+                            <ul>
+                                <li>Training of any new software and installed software by us</li>
+                                <li>Training of any existing software and hardware currently used by your staff</li>
+                                <li>Individual or group training available</li>
+                            </ul>
+                        </td>
+                        <td><b>Starting at $150 per session</b></td>
+                    </tr>
+                    <tr>
+                        <td><p><i class="fa fa-info-circle"></i> Consultation Services</p></td>
+                        <td>
+                            <p>Whether you need consultation on your marketing, development or current software that is installed on your system. This package offers:</p>
+                            <ul>
+                                <li>We can offer alternatives along with demonstrations to software you are having issues with</li>
+                                <li>We can help to build your brand with SEO, graphic design, AD Agencies and other marketing tools</li>
+                            </ul>
+                        </td>
+                        <td><b>Rates vary, call for pricing</b></td>
+                    </tr>
+                    <tr class="colored-row-blue">
+                        <td><p><i class="fa fa-folder-open"></i> Complete Packages</p></td>
+                        <td>
+                            <p>Our complete packages offer everything that you and your company will need in order to get up and running as quickly as possible. This package offers:</p>
+                            <ul>
+                                <li>This package is more a build your own needs kind of package</li>
+                                <li>Pick and choose exactly what you need and leave out anything that you don't</li>
+                            </ul>
+                        </td>
+                        <td><b>Rates vary, call for pricing</b></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

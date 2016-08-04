@@ -1,0 +1,131 @@
+/**
+ *  Author: Robert Arango
+ *  Course: CGS 3175 - Internet Applications
+ *  Assignment: Assignment 5
+ *  Date: 11/25/2015
+ */
+
+* {
+    color: #000;
+}
+
+body {
+    background-color: #ecf0f1;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.jumbotron #header-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Quicksand', sans-serif;
+    /***** PART 2A - Added drop shadow to text *****/
+    text-shadow: 5px -1px 5px rgba(255, 150, 150, 1);
+}
+
+.jumbotron {
+    /***** PART 2D - Replaced solid color background with dark green gradient *****/
+    background: rgba(164,179,87,1);
+    background: -moz-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(164,179,87,1)), color-stop(100%, rgba(117,137,12,1)));
+    background: -webkit-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+    background: -o-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+    background: -ms-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+    background: linear-gradient(to right, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c', GradientType=1 );
+}
+
+.pretty-message {
+    margin: 50px 0px;
+}
+
+h3.pretty-message {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3.pretty-message small {
+    color: #7f8c8d;
+    margin-left: 40px;
+}
+
+.navbar {
+    color: #000;
+}
+
+.panel-heading h3 {
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.panel-footer {
+    text-align: right;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+#home-image {
+    /***** PART 2E - Added a border to the home page image. *****/
+    border: 3px solid rgba(0,0,0,.3);
+}
+
+a:visited {
+    color: red;
+}
+
+a:link {
+    color: green;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+aside {
+    text-align: center;
+}
+
+aside p {
+    font-size: 16px;
+}
+
+aside p.aside-company {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+form .contactForm {
+
+}
+
+#about-us-image {
+    /***** PART 2B - Added box shadow to about us image. *****/
+    -webkit-box-shadow: 4px 4px 25px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 25px 1px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 25px 1px rgba(0,0,0,0.75);
+}
+
+.fa-cube {
+    /***** PART 2C - Added 2d-transform to icon to rotate about 30 degrees. *****/
+    transform: rotate(31deg) scale(1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(31deg) scale(1) skew(1deg) translate(0px);
+    -moz-transform: rotate(31deg) scale(1) skew(1deg) translate(0px);
+    -o-transform: rotate(31deg) scale(1) skew(1deg) translate(0px);
+    -ms-transform: rotate(31deg) scale(1) skew(1deg) translate(0px);
+}

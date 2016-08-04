@@ -1,0 +1,143 @@
+a, a:focus, a:hover {
+    color: #fff;
+}
+
+.btn-default, .btn-default:hover, .btn-default:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+html, body {
+    height: 100%;
+    background-color: #2980b9;
+    font-size: 18px;
+}
+
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 25px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 25px rgba(0,0,0,.5);
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.masthead-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inner h2 {
+    font-size: 35px;
+}
+
+.inner h3 {
+    font-size: 25px;
+}
+
+.inner h4 {
+    font-size: 20px;
+}
+
+.progress {
+    height: 40px;
+}
+
+.progress-bar {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#cardData {
+    height: 50px;
+    line-height: 40px;
+    font: small-caption;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .masthead-brand {
+        float: left;
+    }
+    .masthead-nav {
+        float: right;
+    }
+}
+
+.cover {
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.cover .btn-lg {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#getting-things-ready h1 {
+    font-size: 40px;
+}
+
+.mastfoot {
+    font-size: 16px;
+    color: #FFF; /* IE8 proofing */
+    color: rgba(255,255,255,1);
+}
+
+.fancy-font {
+    font-family: 'Satisfy', cursive;
+}
+
+@media (min-width: 768px) {
+    .masthead {
+        position: fixed;
+        top: 0;
+    }
+    
+    .mastfoot {
+        position: fixed;
+        bottom: 0;
+    }
+  
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+    
+    .masthead, .mastfoot, .cover-container {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
+}
+
+@media (min-width: 992px) {
+    .masthead, .mastfoot, .cover-container {
+        width: 950px;
+    }
+}
+
+th, td {
+    text-align: center;
+}

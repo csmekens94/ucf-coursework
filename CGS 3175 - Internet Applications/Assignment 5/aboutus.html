@@ -1,0 +1,183 @@
+<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- | Author: Robert Arango                    | -->
+<!-- | Course: CGS 3175 - Internet Applications | -->
+<!-- | Assignment: Assignment 5                 | -->
+<!-- | Date: 11/25/2015                         | -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- My project uses several framework components, css, fonts and are loaded through a CDN or content -->
+<!-- delivery network. This allowed me to to quickly and easily prototype this theme and page within  -->
+<!-- a couple hours, instead of days. Hope you like it.                                               -->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Developers 'R' Us - About Us</title>
+
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Developers 'R' Us</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li class="active"><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 id="header-title">
+                <img id="logo" src="img/logo.png" alt="Developers 'R' Us Logo"/>
+                 Developers 'R' Us
+             </h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row-fluid">
+            <div class="col-md-8">
+                <img id="about-us-image" src="img/aboutus-side-panel.png" width="100%" />
+                <br/>
+                <h2>About Developers 'R' Us</h2>
+                <p>
+                    We are a moderately sized business, based out of the University of Central Florida. We specialize in software development across a multitude of software categories. But that's not all, we also work with various hardware tasks as we are at our core NERDs. We love to tinker and try to get the most out of our software and hardware in every conceivable way that we can.
+                </p>
+                <p>
+                    We are always looing for new challenages, so bring us any task that you may find too difficult or daunting. It does not matter what it takes we will fix and/or improve the product. Our business hours are and contact information are readily available on the <a href="contactus.html">Contact Us</a> page. You can also view our services on the <a href="services.html">Services</a> page.
+                </p>
+
+                <br/>
+
+                <div>
+                    <h4>And now, enjoy a cat video on us.</h4>
+                    <!-- Embedded a youtube video in an iframe as this is the easiest and most supported manner. -->
+                    <!-- Object embeds have actually been deprecated since January 2015. -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MG8KADiRbOU" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <br/>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <span class="fa-stack">
+                                <i class="fa fa-circle fa-stack-2x" style="color:#d35400;"></i>
+                                <i class="fa fa-building-o fa-stack-1x fa-inverse"></i>
+                            </span>
+                            Store Hours
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            These hours are subject to change, national and religious holidays are also observed. Any other planned closes will be listed below.
+                        </p>
+                    </div>
+
+                    <table class="table">
+                        <tr class="danger">
+                            <th>
+                                <p style="text-align:right;"><b>Monday</b></p>
+                            </th>
+                            <td>
+                                <p>9AM to 6PM</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p style="text-align:right;"><b>Tuesday</b></p>
+                            </th>
+                            <td>
+                                <p>9AM to 6PM</p>
+                            </td>
+                        </tr>
+                        <tr class="danger">
+                            <th>
+                                <p style="text-align:right;"><b>Wednesday</b></p>
+                            </th>
+                            <td>
+                                <p>9AM to 6PM</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p style="text-align:right;"><b>Thursday</b></p>
+                            </th>
+                            <td>
+                                <p>9AM to 6PM</p>
+                            </td>
+                        </tr>
+                        <tr class="danger">
+                            <th>
+                                <p style="text-align:right;"><b>Friday</b></p>
+                            </th>
+                            <td>
+                                <p>9AM to 6PM</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p style="text-align:right;"><b>Saturday</b></p>
+                            </th>
+                            <td>
+                                <p>11AM to 4PM</p>
+                            </td>
+                        </tr>
+                        <tr class="danger">
+                            <th>
+                                <p style="text-align:right;"><b>Sunday</b></p>
+                            </th>
+                            <td>
+                                <p>Closed</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <h4>Here's a HTML5 sound byte.</h4>
+                    <!-- PART 1A - Added an audio clip in HTML5 syntax -->
+                    <audio controls preload="metadata">
+                        <source src="media/audio.mp3" type="audio/mp3" />
+                        <source src="media/audio.ogv" type="audio/ogg" />
+                        <p>This browser does not support the audio element.</p>
+                    </audio>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+15092570009517, 33333, "Gray Mountain - John Grisham", 14.95, 4, 0.0, 59.8, 9/14/2015 12:20:19 AM EDT
+15092570009672, 11111, "Top Secret Twenty One - Janet Evanovich", 8.99, 1, 0.0, 8.99, 9/14/2015 12:20:42 AM EDT
+15092570009969, 11111, "Top Secret Twenty One - Janet Evanovich", 8.99, 4, 0.0, 35.96, 9/14/2015 12:21:13 AM EDT
+15092570009136, 33333, "Gray Mountain - John Grisham", 14.95, 2, 0.0, 29.9, 9/14/2015 12:21:21 AM EDT
+15092570009602, 66666, "Refusal - Felix Francis", 7.99, 1, 0.0, 7.99, 9/14/2015 12:21:28 AM EDT
+1509257000938, 33333, "Gray Mountain - John Grisham", 14.95, 1, 0.0, 14.95, 9/14/2015 12:21:49 AM EDT

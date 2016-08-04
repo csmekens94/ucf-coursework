@@ -1,0 +1,77 @@
+/**
+ *  Author:     Robert Arango
+ *  Class:      CIS 4004
+ *  Assignment: Project 01 - CSS Stylesheet
+ *  Date:       01/30/2015
+ */
+ 
+body {
+    background: #CCC;
+    margin: 20px auto;
+    width: 1385px;
+    
+}
+
+header {
+    text-align: center;
+    color: #FFF;
+    background: red;
+    border: 1px solid #000;
+    margin: 0px 0px 20px 0px;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+nav {
+    text-align: center;
+    border: 1px solid blue;
+    background: lightblue;
+    margin: 0px 0px 10px 0px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 5px;
+}
+
+section {
+    border: 1px solid #000;
+    width: 1007px;
+    float:left;
+    padding: 10px;
+}
+
+aside {
+    border: 1px solid #000;
+    width: 323px;
+    float: right;
+    padding: 10px;
+}
+
+aside ul {
+    color:red;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+img {
+    vertical-align:baseline;
+}
+
+p {
+    text-align: justify;
+    line-height: 20px;
+}
